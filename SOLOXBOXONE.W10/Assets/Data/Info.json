@@ -1,0 +1,16 @@
+[
+  {
+    "MenuType": "DeepLink",
+    "Title": "Onyx Studios Mobile",
+    "Icon": "/Assets/DataImages/url.png",
+    "Target": "http://www.onyxstudios.tk",
+    "_id": "de9e87ed-8193-455d-ba14-084a86efc832"
+  },
+  {
+    "MenuType": "DeepLink",
+    "Title": "Soporte",
+    "Icon": "/Assets/DataImages/mailto.png",
+    "Target": "mailto:dragon33518@gmail.com",
+    "_id": "5b318f0d-cf1b-47d4-b0e8-c2e8a87f8a09"
+  }
+]

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:appstudio="http://schemas.microsoft.com/developer/appx/2015/appstudio" 
+  IgnorableNamespaces="uap mp appstudio">
+			<Identity Name="35889TheProject6.SOLOXBOXONE" Publisher="CN=6D95A142-EEB8-49DB-B3E6-E86F91F54C2D" Version="10.2.0.0" />
+	    <mp:PhoneIdentity PhoneProductId="2eefe5f6-a765-46f6-bc21-dc39638cfd95" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+    <Properties>
+        <DisplayName>SoloXboxOne</DisplayName>
+        <PublisherDisplayName>Onyx Studios Inc.</PublisherDisplayName>
+        <Logo>Assets\StoreLogo.png</Logo>
+    </Properties>
+    <Dependencies>
+        <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+    </Dependencies>
+    <Resources>
+        <Resource Language="x-generate"/>
+    </Resources>
+    <Applications>
+        <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="SOLOXBOXONE.App">
+            <uap:VisualElements 
+			  DisplayName="SOLOXBOXONE"
+              Square150x150Logo="Assets\Square150x150Logo.png"
+              Square44x44Logo="Assets\Square44x44Logo.png"
+              Description="Universal Windows 10 APP para SOLOXBOXONE."
+              BackgroundColor="transparent">
+                <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#027c02"/>
+                <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\Square310x310Logo.png" Square71x71Logo="Assets\Square71x71Logo.png">
+                    <uap:TileUpdate Recurrence="halfHour" UriTemplate="http://ds.winappstudio.com/api/tile10?config=NgIAAB~LCAAAAAAABAClkc1OwzAQhN9lzxZJA1x8g4IQEqUVCSoS4uC629SqfyLHqRJFeXfWSZA4cKiEfPHsjudb2z081EVXIfAbRtulswdVAu/h3WvgcAyh4klSO~3anWudxSvpTCJFwNL5LhE~KNloVycHxH0CA4MCTaWpH0MKpfFVGNrDBvEEDO69sHtlCXFNPFWTtZsdOUE~CLK2SMYn75qqBv7ZQ97sfqktqvIYgC/SNMLakAchT2MkFR41GrRhssZuHINuFahIjEIFHdO3XlTAg2~QwUrZF2WRjthGa9KinfUti~x4YrbmoYuCRr/TqrRmDE3p0s9GlDgFDOwvcN4YI3z3b/TiMvQUN7foBb2kGUYZ/5XBGxp3xpXwpbI/hKV31fiG6zN6~hbgWcZgo4XEiZYNw9e4hm~le9WhNgIAAA=="/>
+                    <uap:ShowNameOnTiles>
+                        <uap:ShowOn Tile="square150x150Logo"/>
+						<uap:ShowOn Tile="square310x310Logo" />
+                    </uap:ShowNameOnTiles>
+                </uap:DefaultTile>
+            </uap:VisualElements>
+        </Application>
+    </Applications>
+    <Capabilities>
+        <Capability Name="internetClient" />
+    </Capabilities>
+    <appstudio:Metadata>
+        <appstudio:Item Name="appId" Value="2eefe5f6-a765-46f6-bc21-dc39638cfd95" />
+        <appstudio:Item Name="model" Version="1.14" />
+        <appstudio:Item Name="formula" Value="Win10" Version="1.12.0308.2" />
+        <appstudio:Item DataSource="Rss" Version="1.2.*"/>
+        <appstudio:Item DataSource="YouTube" Version="1.2.*"/>
+        <appstudio:Item DataSource="Twitter" Version="1.2.*"/>
+        <appstudio:Item DataSource="Menu" Version="1.2.*"/>
+    </appstudio:Metadata>
+</Package>
